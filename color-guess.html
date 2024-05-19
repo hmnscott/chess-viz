@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guess Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+        <h1>Color Guess Challenge</h1>
+        <p>What color is the <span id="file">a</span><span id="rank">1</span> square?</p>
+        <p id="solution" style="visibility: hidden;"><span id="square-color">Dark</span></p>
+        <p class="buttons">
+            <span class="button" id="show-solution" onclick="showSolution()">Show Solution</span>
+            <span class="button" id="new-square" onclick="newSquare()" style="display: none;">New Square</span>
+        </p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+        <p>Copyright &copy; 2024 &#9812; <a href="index.html">HOME</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: darkslategray;
+}
+h1 {
+    color: white;
+    font-size: 1.2em;
+}
+section {
+    font-size: 1.2em;
+}
+footer {
+    padding-top: 3em;
+    font-size: 1em;
+}
+p {
+    color: white;
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+.buttons {
+    margin: 5em 0em;
+}
+.button {
+    color: lightblue;
+    padding: 1em 0em 1em 0em;
+    cursor: pointer;
+}
